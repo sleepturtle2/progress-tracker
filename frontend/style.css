@@ -1,0 +1,35 @@
+/*General*/
+body{
+    background: #352f5b;
+}
+
+/*Nav Bar*/
+.navbar-name{
+    color:white;
+}
+
+.navbar .navbar-expand-lg .navbar-dark{
+    margin-bottom: 30px !important;
+}
+
+/*Search Bar*/
+.search{
+    margin-top: 30px !important;
+}
+
+/*Tasks*/
+.container{
+    max-width: 500px;
+}
+
+.tasks li{
+    background: #423a6f;
+}
+
+.lni-trash{
+    cursor: pointer;
+}
+
+.filtered{
+    display: none !important;  /*bootstrap flex displays are defined with !important, and it overrides css unless !important*/
+}
